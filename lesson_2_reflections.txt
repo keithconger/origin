@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 It creats meta dta.  So that you have information needed to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area contains files that are git elements that have been modified since the last commit.  It holds those items that could be part of the next commit.
