@@ -3,3 +3,14 @@ It creats meta dta.  So that you have information needed to track changes.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area contains files that are git elements that have been modified since the last commit.  It holds those items that could be part of the next commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You push only those files associated with the logical change into the staging area.  You leave other files out of it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you are working on different features.  When multiple developers are working on different features.  Customer specific branches.
+
+How do the diagrams help you visualize the branch structure?
+They let you know what branches you have, and they let you see the anchor points.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The merge output should have the changes from the two merged branches.  The diagram shows the changes coming together.
