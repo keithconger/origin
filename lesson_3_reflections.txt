@@ -3,3 +3,7 @@ When you want to use multiple computers.  When you want multiple people to see t
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 So you only get changes you want.  So you don't have to constantly merge.
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks - A copy of a repository on github.
+Clone - A local copy of a repository.
+Branches - Different code paths in the same repository.
