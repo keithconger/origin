@@ -10,3 +10,9 @@ Branches - Different code paths in the same repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can use other peoples' changees.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I'd use Clearcase or Perforce.  It would mostly be easier because the release engineering folks at work would set it up for me.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You would work on a branch if your changes are extensive and you need to test and work with them before merging them down to the master.  You also would work on a branch if your changes will never come down because they are experimental or permanently on a different branch.  One benefit to using a branch is that it allows others to work on the master without interruption.
